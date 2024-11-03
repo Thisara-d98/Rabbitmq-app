@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "iWqci/9ARVLj35EoJk3MtbANukYR8RzglTGgMbYNijQsfekrlWkOpsGDKTP8UPmxxHO7IEwo/M4IiVLaW8C3KA==",
+  "success": true,
+  "projectFilePath": "/home/thisaradilshan/RabbitMQ/NoMo/GroceryShop/GroceryShop.InventoryService/GroceryShop.InventoryService.csproj",
+  "expectedPackageFiles": [
+    "/home/thisaradilshan/.nuget/packages/rabbitmq.client/6.8.1/rabbitmq.client.6.8.1.nupkg.sha512",
+    "/home/thisaradilshan/.nuget/packages/system.memory/4.5.5/system.memory.4.5.5.nupkg.sha512",
+    "/home/thisaradilshan/.nuget/packages/system.text.json/8.0.5/system.text.json.8.0.5.nupkg.sha512",
+    "/home/thisaradilshan/.nuget/packages/system.threading.channels/7.0.0/system.threading.channels.7.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

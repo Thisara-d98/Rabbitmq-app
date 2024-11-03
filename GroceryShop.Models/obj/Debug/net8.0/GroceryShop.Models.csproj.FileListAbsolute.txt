@@ -1,0 +1,11 @@
+/home/thisaradilshan/RabbitMQ/NoMo/GroceryShop/GroceryShop.Models/bin/Debug/net8.0/GroceryShop.Models.deps.json
+/home/thisaradilshan/RabbitMQ/NoMo/GroceryShop/GroceryShop.Models/bin/Debug/net8.0/GroceryShop.Models.dll
+/home/thisaradilshan/RabbitMQ/NoMo/GroceryShop/GroceryShop.Models/bin/Debug/net8.0/GroceryShop.Models.pdb
+/home/thisaradilshan/RabbitMQ/NoMo/GroceryShop/GroceryShop.Models/obj/Debug/net8.0/GroceryShop.Models.GeneratedMSBuildEditorConfig.editorconfig
+/home/thisaradilshan/RabbitMQ/NoMo/GroceryShop/GroceryShop.Models/obj/Debug/net8.0/GroceryShop.Models.AssemblyInfoInputs.cache
+/home/thisaradilshan/RabbitMQ/NoMo/GroceryShop/GroceryShop.Models/obj/Debug/net8.0/GroceryShop.Models.AssemblyInfo.cs
+/home/thisaradilshan/RabbitMQ/NoMo/GroceryShop/GroceryShop.Models/obj/Debug/net8.0/GroceryShop.Models.csproj.CoreCompileInputs.cache
+/home/thisaradilshan/RabbitMQ/NoMo/GroceryShop/GroceryShop.Models/obj/Debug/net8.0/GroceryShop.Models.dll
+/home/thisaradilshan/RabbitMQ/NoMo/GroceryShop/GroceryShop.Models/obj/Debug/net8.0/refint/GroceryShop.Models.dll
+/home/thisaradilshan/RabbitMQ/NoMo/GroceryShop/GroceryShop.Models/obj/Debug/net8.0/GroceryShop.Models.pdb
+/home/thisaradilshan/RabbitMQ/NoMo/GroceryShop/GroceryShop.Models/obj/Debug/net8.0/ref/GroceryShop.Models.dll

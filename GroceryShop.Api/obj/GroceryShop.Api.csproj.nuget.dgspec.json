@@ -1,0 +1,271 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/thisaradilshan/RabbitMQ/NoMo/GroceryShop/GroceryShop.Api/GroceryShop.Api.csproj": {}
+  },
+  "projects": {
+    "/home/thisaradilshan/RabbitMQ/NoMo/GroceryShop/GroceryShop.Api/GroceryShop.Api.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/thisaradilshan/RabbitMQ/NoMo/GroceryShop/GroceryShop.Api/GroceryShop.Api.csproj",
+        "projectName": "GroceryShop.Api",
+        "projectPath": "/home/thisaradilshan/RabbitMQ/NoMo/GroceryShop/GroceryShop.Api/GroceryShop.Api.csproj",
+        "packagesPath": "/home/thisaradilshan/.nuget/packages/",
+        "outputPath": "/home/thisaradilshan/RabbitMQ/NoMo/GroceryShop/GroceryShop.Api/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/thisaradilshan/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/home/thisaradilshan/RabbitMQ/NoMo/GroceryShop/GroceryShop.EmailService/GroceryShop.EmailService.csproj": {
+                "projectPath": "/home/thisaradilshan/RabbitMQ/NoMo/GroceryShop/GroceryShop.EmailService/GroceryShop.EmailService.csproj"
+              },
+              "/home/thisaradilshan/RabbitMQ/NoMo/GroceryShop/GroceryShop.InventoryService/GroceryShop.InventoryService.csproj": {
+                "projectPath": "/home/thisaradilshan/RabbitMQ/NoMo/GroceryShop/GroceryShop.InventoryService/GroceryShop.InventoryService.csproj"
+              },
+              "/home/thisaradilshan/RabbitMQ/NoMo/GroceryShop/GroceryShop.Models/GroceryShop.Models.csproj": {
+                "projectPath": "/home/thisaradilshan/RabbitMQ/NoMo/GroceryShop/GroceryShop.Models/GroceryShop.Models.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.OpenApi": {
+              "target": "Package",
+              "version": "[8.0.5, )"
+            },
+            "RabbitMQ.Client": {
+              "target": "Package",
+              "version": "[6.8.1, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.4.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/lib64/dotnet/sdk/8.0.108/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/thisaradilshan/RabbitMQ/NoMo/GroceryShop/GroceryShop.EmailService/GroceryShop.EmailService.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/thisaradilshan/RabbitMQ/NoMo/GroceryShop/GroceryShop.EmailService/GroceryShop.EmailService.csproj",
+        "projectName": "GroceryShop.EmailService",
+        "projectPath": "/home/thisaradilshan/RabbitMQ/NoMo/GroceryShop/GroceryShop.EmailService/GroceryShop.EmailService.csproj",
+        "packagesPath": "/home/thisaradilshan/.nuget/packages/",
+        "outputPath": "/home/thisaradilshan/RabbitMQ/NoMo/GroceryShop/GroceryShop.EmailService/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/thisaradilshan/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/home/thisaradilshan/RabbitMQ/NoMo/GroceryShop/GroceryShop.Models/GroceryShop.Models.csproj": {
+                "projectPath": "/home/thisaradilshan/RabbitMQ/NoMo/GroceryShop/GroceryShop.Models/GroceryShop.Models.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Mailkit": {
+              "target": "Package",
+              "version": "[4.8.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/lib64/dotnet/sdk/8.0.108/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/thisaradilshan/RabbitMQ/NoMo/GroceryShop/GroceryShop.InventoryService/GroceryShop.InventoryService.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/thisaradilshan/RabbitMQ/NoMo/GroceryShop/GroceryShop.InventoryService/GroceryShop.InventoryService.csproj",
+        "projectName": "GroceryShop.InventoryService",
+        "projectPath": "/home/thisaradilshan/RabbitMQ/NoMo/GroceryShop/GroceryShop.InventoryService/GroceryShop.InventoryService.csproj",
+        "packagesPath": "/home/thisaradilshan/.nuget/packages/",
+        "outputPath": "/home/thisaradilshan/RabbitMQ/NoMo/GroceryShop/GroceryShop.InventoryService/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/thisaradilshan/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/home/thisaradilshan/RabbitMQ/NoMo/GroceryShop/GroceryShop.Models/GroceryShop.Models.csproj": {
+                "projectPath": "/home/thisaradilshan/RabbitMQ/NoMo/GroceryShop/GroceryShop.Models/GroceryShop.Models.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "RabbitMQ.Client": {
+              "target": "Package",
+              "version": "[6.8.1, )"
+            },
+            "System.Text.Json": {
+              "target": "Package",
+              "version": "[8.0.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/lib64/dotnet/sdk/8.0.108/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/thisaradilshan/RabbitMQ/NoMo/GroceryShop/GroceryShop.Models/GroceryShop.Models.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/thisaradilshan/RabbitMQ/NoMo/GroceryShop/GroceryShop.Models/GroceryShop.Models.csproj",
+        "projectName": "GroceryShop.Models",
+        "projectPath": "/home/thisaradilshan/RabbitMQ/NoMo/GroceryShop/GroceryShop.Models/GroceryShop.Models.csproj",
+        "packagesPath": "/home/thisaradilshan/.nuget/packages/",
+        "outputPath": "/home/thisaradilshan/RabbitMQ/NoMo/GroceryShop/GroceryShop.Models/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/thisaradilshan/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/lib64/dotnet/sdk/8.0.108/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
